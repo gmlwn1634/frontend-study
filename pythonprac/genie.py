@@ -1,9 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from pymongo import MongoClient
-
-client = MongoClient('localhost', 27017)
-db = client.dbsparta
 
 # 브라우저에서 들어간 것과 같은 효과
 headers = {
