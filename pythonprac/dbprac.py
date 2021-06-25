@@ -5,8 +5,8 @@ db = client.dbsparta
 # insert/ find / update / delete
 
 # insert
-# doc = {'name':'bobby','age':31}
-# db.users.insert_one(doc)
+doc = {'name':'bobby','age':31}
+db.users.insert_one(doc)
 
 # find
 # same_ages = list(db.users.find({'age':21},{'_id':False}))
@@ -24,4 +24,5 @@ db = client.dbsparta
 
 # delete
 # db.users.delete_one({'name':'bobby'})
-db.users.delete_many({'name':'bobby'})
+# db.users.delete_many({'name':'bobby'})
+
